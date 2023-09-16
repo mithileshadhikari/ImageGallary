@@ -31,7 +31,7 @@
 
 .full-img img{
 margin-top: 80px;
-margin-left: 300px;
+margin-left: 250px;
 margin-bottom: 80px;
 
 }
@@ -47,4 +47,26 @@ margin-bottom: 80px;
     
 
 
+}
+
+@media (max-width:500px) {
+    .full-img{
+    
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    
+    .full-img img{
+        width: 90%;
+        height: 30%;
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-bottom: 300px;
+    
+    }
 }
